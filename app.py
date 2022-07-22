@@ -137,8 +137,8 @@ app.layout = dbc.Container(
                                         dcc.Dropdown(
                                             id="projects",
                                             multi=True,
-                                            value=[search_input],
                                             options=[search_input],
+                                            value=[search_input],
                                         )
                                     ],
                                     style={
